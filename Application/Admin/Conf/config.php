@@ -1,30 +1,5 @@
 <?php
-/**
- * Created for takahashi.
- * Author: Qi
- * Date: 2016.7.21
- *　　　　　　　　┏┓　　　┏┓+ +
- *　　　　　　　┏┛┻━━━┛┻┓ + +
- *　　　　　　　┃　　　　　　　┃ 　
- *　　　　　　　┃　　　━　　　┃ ++ + + +
- *　　　　　　 ████━████ ┃+
- *　　　　　　　┃　　　　　　　┃ +
- *　　　　　　　┃　　　┻　　　┃
- *　　　　　　　┃　　　　　　　┃ + +
- *　　　　　　　┗━┓　　　┏━┛
- *　　　　　　　　　┃　　　┃　　　　　　　　　　　
- *　　　　　　　　　┃　　　┃ + + + +
- *　　　　　　　　　┃　　　┃　　　　Code is far away from bug with the animal protecting　　　　　　　
- *　　　　　　　　　┃　　　┃ + 　　　　神兽保佑,代码无bug　　
- *　　　　　　　　　┃　　　┃
- *　　　　　　　　　┃　　　┃　　+　　　　　　　　　
- *　　　　　　　　　┃　 　　┗━━━┓ + +
- *　　　　　　　　　┃ 　　　　　　　┣┓
- *　　　　　　　　　┃ 　　　　　　　┏┛
- *　　　　　　　　　┗┓┓┏━┳┓┏┛ + + + +
- *　　　　　　　　　　┃┫┫　┃┫┫
- *　　　　　　　　　　┗┻┛　┗┻┛+ + + +
- */
+
 return array(
     'TITLE_FONT_COLOR' =>array(
         '#3A5FCD' => '蓝色',

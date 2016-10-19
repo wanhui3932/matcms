@@ -26,7 +26,7 @@ function show($status, $message, $data = array())
     );
     exit(json_encode($result));
 }
-
+//md5加密
 function getMd5Password($password)
 {
     return md5($password . C('MD5_PRE'));
@@ -36,11 +36,7 @@ function getMenuType($type)
 {
     return $type == 1 ? '后台菜单' : '前端导航';
 }
-
-
-
-
-
+//状态
 function status($status)
 {
     if ($status == 0) {

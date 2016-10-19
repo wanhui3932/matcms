@@ -1,8 +1,5 @@
 <?php
 /**
- * Created for takahashi.
- * Author: Qi
- * Date: 2016.7.21
  *                        . .
  *                      '.-:-.`  
  *                      '  :  `
@@ -19,7 +16,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Upload;
-
+//图片上传类
 class ImageController extends CommonController
 {
     private $_uploadObj;

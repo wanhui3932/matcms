@@ -1,10 +1,5 @@
 <?php
-/**
- * 文章管理
- * Created for takahashi.
- * Author: Qi
- * Date: 2016.7.21
- *                        . .
+/**                      . .
  *                      '.-:-.`  
  *                      '  :  `
  *                   .-----:     
@@ -151,6 +146,7 @@ class ContentController extends CommonController
     {
         return parent::listorder('News');
     }
+    //推荐位
     public function push()
     {
         $jumpUrl = $_SERVER['HTTP_REFERER'];

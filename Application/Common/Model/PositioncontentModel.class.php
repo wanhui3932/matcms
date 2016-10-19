@@ -30,7 +30,7 @@ class PositioncontentModel extends Model
 
     public function insert($data = array())
     {
-        //dump($data);die;
+       
         if (!is_array($data) || !$data) {
             return 0;
         }

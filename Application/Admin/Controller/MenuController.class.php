@@ -1,9 +1,5 @@
 <?php
-/**
- * Created for takahashi.
- * User: Qi
- * Date: 2016.7.6
- *                        . .
+/**                       . .
  *                      '.-:-.`  
  *                      '  :  `
  *                   .-----:     

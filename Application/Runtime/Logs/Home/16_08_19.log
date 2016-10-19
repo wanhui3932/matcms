@@ -1,0 +1,52 @@
+[ 2016-08-19T13:39:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007069s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\web\Matcms\Application\Common\Model\MenuModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `mat_menu` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `mat_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositioncontentModel::find() should be compatible with Think\Model::find($options = Array) D:\web\Matcms\Application\Common\Model\PositioncontentModel.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `mat_position_content` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `mat_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc,id desc LIMIT 3   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\web\Matcms\Application\Common\Model\NewsContentModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `mat_news_content` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=26 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_position_content` WHERE `status` = 1 AND `position_id` = 4 ORDER BY listorder desc,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=32 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mat_news_content` WHERE ( news_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mat_position_content` WHERE `status` = 1 AND `position_id` = 1 ORDER BY listorder desc,id desc  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\web\Matcms\Application\Common\Model\BasicModel.class.php 第 40 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\web\Matcms\Application\Common\Model\BasicModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: id D:\web\Matcms\Application\Home\Controller\IndexController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: search D:\web\Matcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 59 行.
+NOTIC: [8] Undefined index: userInfo D:\web\Matcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Undefined index: userInfo D:\web\Matcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 154 行.
+NOTIC: [8] Undefined index: userInfo D:\web\Matcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 159 行.
+NOTIC: [8] Undefined index: userInfo D:\web\Matcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009334s ]
+
